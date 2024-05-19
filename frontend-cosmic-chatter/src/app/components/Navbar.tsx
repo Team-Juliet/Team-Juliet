@@ -11,7 +11,7 @@ const Navbar = () => {
       <AppBar position="static">
         <Toolbar>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Cosmic Chatter
+           <a href="/">Cosmic Chatter</a> 
           </Typography>
           <Box sx={{ display: "flex" }}>
             <Link href={"/work"} style={{ marginRight: 10 }}>
