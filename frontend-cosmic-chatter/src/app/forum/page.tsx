@@ -8,11 +8,11 @@ const page = () => {
           backgroundImage: `url('../../images/forum.png')`,
           height: "100vh",
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "center"
         }}
-        className='flex justify-center w-full '
+        className="flex justify-center w-full "
       >
-        <div className='flex mt-32'>Chatter</div>
+        <div className="flex mt-32">Chatter</div>
       </div>
     </>
   );
