@@ -1,6 +1,7 @@
 from astropy.io import fits
 import numpy as np
 
+#make hardcode for test purposes
 filename = "backend-fastapi/asset/SDSS_J101547.86+140606.5_1.fits"  # Filename from assest folder
 hdulist = fits.open(filename)
 data = hdulist[1].data  # Assuming data is in the second extension (modify as needed)
