@@ -1,6 +1,6 @@
 import os
 
-# borrowed code
+# borrowed code from de web
 # Important paths
 code_dir = os.path.dirname(__file__)
 root = os.path.dirname(code_dir)
