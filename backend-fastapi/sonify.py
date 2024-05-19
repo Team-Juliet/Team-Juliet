@@ -5,7 +5,7 @@ import rtmidi
 import mido
 import constants
 
-# borrowed
+# borrowed code
 def main():
     """
     Main process
