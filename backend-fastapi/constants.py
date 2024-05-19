@@ -1,6 +1,7 @@
 import os
 
-# borrowed code from de web
+
+
 # Important paths
 code_dir = os.path.dirname(__file__)
 root = os.path.dirname(code_dir)
@@ -10,7 +11,7 @@ data_has_header = True
 
 # Data set
 input_csv_file = os.path.join(data_dir, 'data_0_all.csv')
-
+#input_csv_file = fitsconverter.csv_convert
 
 # Sound settings
 sample_rate = 44100  # Hertz
