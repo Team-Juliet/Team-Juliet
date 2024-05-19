@@ -18,7 +18,7 @@ const Navbar = () => {
               Work
             </Link>
             <Link href={"/chatter"} style={{ marginRight: 10 }}>
-              Chatter
+              Forum
             </Link>
             <Link href={"/profile"} style={{ marginRight: 10 }}>
               Profile
