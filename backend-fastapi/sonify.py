@@ -5,7 +5,6 @@ import rtmidi
 import mido
 import constants
 
-# borrowed code from de web
 def main():
     """
     Main process
@@ -49,7 +48,7 @@ def sonify(array):
     if available_ports:
         midiout.open_port(0)
     else:
-        midiout.open_virtual_port('Virtual output 1"')
+        midiout.open_virtual_port('Virtual output 1')
 
     note_off = mido.Message('note_off', note=50, velocity=0).bytes()
 

@@ -10,7 +10,12 @@ from rest_framework.status import (
 from django.core.exceptions import ValidationError
 
 
-class Conversion(APIView):
+from django.http import HttpResponse
 
+class Conversion(APIView):
     def post(self, request):
         pass
+
+    def get(self, request):
+        response_string = "Success! Your GET request went through."
+        return HttpResponse(response_string)
