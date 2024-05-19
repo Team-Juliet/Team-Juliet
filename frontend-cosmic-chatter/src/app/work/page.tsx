@@ -1,7 +1,7 @@
 import React from "react";
 
 const page = () => {
-  return <div>Work</div>;
+  return <div style={{ backgroundImage: `url('../../images/work.png')`, height: '100vh', backgroundSize: 'cover', backgroundPosition: 'center' }}>Work</div>;
 };
 
 export default page;

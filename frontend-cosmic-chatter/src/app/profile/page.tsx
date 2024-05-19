@@ -1,16 +1,7 @@
 import React from "react";
 
 const page = () => {
-  return (
-  <>
-  <div className="bg-red-400"> 
-
-    <h1> Profile Page </h1>
- 
- 
-  </div>
-  </>
-);
+  return <div style={{ backgroundImage: `url('../../images/profile.png')`, height: '100vh', backgroundSize: 'cover', backgroundPosition: 'center' }}>Profile</div>;
 };
 
 export default page;
